@@ -43,7 +43,7 @@ class="py-2 px-9 flex items-center fixed top-0 w-full justify-between z-40 text-
 
     listItem.forEach((item)=>{
         item.addEventListener("mouseenter",()=>{
-            const {left,top,width,height} = item.getBoundingClientRect()0
+            const {left,top,width,height} = item.getBoundingClientRect()
             
             menuBackDrop.style.setProperty("--left", `${left}px`)
             menuBackDrop.style.setProperty("--top", `${top}px`)
